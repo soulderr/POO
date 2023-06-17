@@ -17,8 +17,11 @@ public class AjedrezGUI extends javax.swing.JFrame {
     private int origenX, origenY;
 
     public AjedrezGUI() {
-        setTitle("Ajedrez");
-        setSize(600, 600);
+        initComponents();
+        this.setSize(800, 600);
+        this.setLocationRelativeTo(null);
+        this.setTitle("Ajedrez");
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(8, 8));
 
@@ -101,17 +104,354 @@ public class AjedrezGUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton48 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton57 = new javax.swing.JButton();
+        jButton46 = new javax.swing.JButton();
+        jButton56 = new javax.swing.JButton();
+        jButton60 = new javax.swing.JButton();
+        jButton59 = new javax.swing.JButton();
+        jButton54 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton41 = new javax.swing.JButton();
+        jButton40 = new javax.swing.JButton();
+        jButton39 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jButton58 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
+        jButton53 = new javax.swing.JButton();
+        jButton51 = new javax.swing.JButton();
+        jButton45 = new javax.swing.JButton();
+        jButton44 = new javax.swing.JButton();
+        jButton63 = new javax.swing.JButton();
+        jButton64 = new javax.swing.JButton();
+        jButton62 = new javax.swing.JButton();
+        jButton61 = new javax.swing.JButton();
+        jButton42 = new javax.swing.JButton();
+        jButton55 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton49 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton43 = new javax.swing.JButton();
+        jButton38 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton50 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton32 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setLayout(new java.awt.GridLayout(8, 8));
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegra.png"))); // NOI18N
+        jButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton1);
+
+        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
+        jButton3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton3);
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
+        jButton5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton5);
+
+        jButton6.setBackground(new java.awt.Color(0, 0, 0));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReinaNegra.png"))); // NOI18N
+        jButton6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton6);
+
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ReyNegro.png"))); // NOI18N
+        jButton8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton8);
+
+        jButton7.setBackground(new java.awt.Color(0, 0, 0));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AlfilNegro.png"))); // NOI18N
+        jButton7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton7);
+
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/CaballoNegro.png"))); // NOI18N
+        jButton9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton9);
+
+        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/TorreNegra.png"))); // NOI18N
+        jButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton4);
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton2);
+
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton10);
+
+        jButton48.setBackground(new java.awt.Color(0, 0, 0));
+        jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton48.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton48);
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton11);
+
+        jButton57.setBackground(new java.awt.Color(0, 0, 0));
+        jButton57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton57.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton57);
+
+        jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton46.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton46);
+
+        jButton56.setBackground(new java.awt.Color(0, 0, 0));
+        jButton56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton56.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton56);
+
+        jButton60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha PeonNegra.png"))); // NOI18N
+        jButton60.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton60);
+
+        jButton59.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton59);
+
+        jButton54.setBackground(new java.awt.Color(0, 0, 0));
+        jButton54.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton54);
+
+        jButton17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton17);
+
+        jButton12.setBackground(new java.awt.Color(0, 0, 0));
+        jButton12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton12);
+
+        jButton41.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton41);
+
+        jButton40.setBackground(new java.awt.Color(0, 0, 0));
+        jButton40.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton40);
+
+        jButton39.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton39);
+
+        jButton47.setBackground(new java.awt.Color(0, 0, 0));
+        jButton47.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton47);
+
+        jButton58.setBackground(new java.awt.Color(0, 0, 0));
+        jButton58.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton58);
+
+        jButton52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton52);
+
+        jButton53.setBackground(new java.awt.Color(0, 0, 0));
+        jButton53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton53);
+
+        jButton51.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton51);
+
+        jButton45.setBackground(new java.awt.Color(0, 0, 0));
+        jButton45.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton45);
+
+        jButton44.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton44);
+
+        jButton63.setBackground(new java.awt.Color(0, 0, 0));
+        jButton63.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton63);
+
+        jButton64.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton64);
+
+        jButton62.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton62);
+
+        jButton61.setBackground(new java.awt.Color(0, 0, 0));
+        jButton61.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton61);
+
+        jButton42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton42);
+
+        jButton55.setBackground(new java.awt.Color(0, 0, 0));
+        jButton55.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton55);
+
+        jButton13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton13);
+
+        jButton49.setBackground(new java.awt.Color(0, 0, 0));
+        jButton49.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton49);
+
+        jButton37.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton37);
+
+        jButton25.setBackground(new java.awt.Color(0, 0, 0));
+        jButton25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton25);
+
+        jButton18.setBackground(new java.awt.Color(0, 0, 0));
+        jButton18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton18);
+
+        jButton14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton14);
+
+        jButton43.setBackground(new java.awt.Color(0, 0, 0));
+        jButton43.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton43);
+
+        jButton38.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton38);
+
+        jButton15.setBackground(new java.awt.Color(0, 0, 0));
+        jButton15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton15);
+
+        jButton33.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton33);
+
+        jButton24.setBackground(new java.awt.Color(0, 0, 0));
+        jButton24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton24);
+
+        jButton50.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton50);
+
+        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton23);
+
+        jButton22.setBackground(new java.awt.Color(0, 0, 0));
+        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton22);
+
+        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton21);
+
+        jButton36.setBackground(new java.awt.Color(0, 0, 0));
+        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton36.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton36);
+
+        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton35);
+
+        jButton34.setBackground(new java.awt.Color(0, 0, 0));
+        jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton34);
+
+        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton32.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton32);
+
+        jButton20.setBackground(new java.awt.Color(0, 0, 0));
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ficha Peon.png"))); // NOI18N
+        jButton20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton20);
+
+        jButton19.setBackground(new java.awt.Color(0, 0, 0));
+        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Torre.png"))); // NOI18N
+        jButton19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton19);
+
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Caballo.png"))); // NOI18N
+        jButton16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton16);
+
+        jButton26.setBackground(new java.awt.Color(0, 0, 0));
+        jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Alfil.png"))); // NOI18N
+        jButton26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton26);
+
+        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Reina.png"))); // NOI18N
+        jButton31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton31);
+
+        jButton30.setBackground(new java.awt.Color(0, 0, 0));
+        jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Rey.png"))); // NOI18N
+        jButton30.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton30);
+
+        jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Alfil.png"))); // NOI18N
+        jButton27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton27);
+
+        jButton29.setBackground(new java.awt.Color(0, 0, 0));
+        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Caballo.png"))); // NOI18N
+        jButton29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton29);
+
+        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Torre.png"))); // NOI18N
+        jButton28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jButton28);
+
+        jMenu1.setText("Restart");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Exit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -161,5 +501,73 @@ public class AjedrezGUI extends javax.swing.JFrame {
                 }
 }
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton10;
+    public javax.swing.JButton jButton11;
+    public javax.swing.JButton jButton12;
+    public javax.swing.JButton jButton13;
+    public javax.swing.JButton jButton14;
+    public javax.swing.JButton jButton15;
+    public javax.swing.JButton jButton16;
+    public javax.swing.JButton jButton17;
+    public javax.swing.JButton jButton18;
+    public javax.swing.JButton jButton19;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton20;
+    public javax.swing.JButton jButton21;
+    public javax.swing.JButton jButton22;
+    public javax.swing.JButton jButton23;
+    public javax.swing.JButton jButton24;
+    public javax.swing.JButton jButton25;
+    public javax.swing.JButton jButton26;
+    public javax.swing.JButton jButton27;
+    public javax.swing.JButton jButton28;
+    public javax.swing.JButton jButton29;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton30;
+    public javax.swing.JButton jButton31;
+    public javax.swing.JButton jButton32;
+    public javax.swing.JButton jButton33;
+    public javax.swing.JButton jButton34;
+    public javax.swing.JButton jButton35;
+    public javax.swing.JButton jButton36;
+    public javax.swing.JButton jButton37;
+    public javax.swing.JButton jButton38;
+    public javax.swing.JButton jButton39;
+    public javax.swing.JButton jButton4;
+    public javax.swing.JButton jButton40;
+    public javax.swing.JButton jButton41;
+    public javax.swing.JButton jButton42;
+    public javax.swing.JButton jButton43;
+    public javax.swing.JButton jButton44;
+    public javax.swing.JButton jButton45;
+    public javax.swing.JButton jButton46;
+    public javax.swing.JButton jButton47;
+    public javax.swing.JButton jButton48;
+    public javax.swing.JButton jButton49;
+    public javax.swing.JButton jButton5;
+    public javax.swing.JButton jButton50;
+    public javax.swing.JButton jButton51;
+    public javax.swing.JButton jButton52;
+    public javax.swing.JButton jButton53;
+    public javax.swing.JButton jButton54;
+    public javax.swing.JButton jButton55;
+    public javax.swing.JButton jButton56;
+    public javax.swing.JButton jButton57;
+    public javax.swing.JButton jButton58;
+    public javax.swing.JButton jButton59;
+    public javax.swing.JButton jButton6;
+    public javax.swing.JButton jButton60;
+    public javax.swing.JButton jButton61;
+    public javax.swing.JButton jButton62;
+    public javax.swing.JButton jButton63;
+    public javax.swing.JButton jButton64;
+    public javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton8;
+    public javax.swing.JButton jButton9;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
